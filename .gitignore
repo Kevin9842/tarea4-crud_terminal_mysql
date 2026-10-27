@@ -1,0 +1,30 @@
+# Carpetas de compilación y distribución generadas
+/build/
+/dist/
+
+# Configuraciones privadas de usuario de NetBeans
+/nbproject/private/
+
+# Archivos compilados
+*.class
+
+# Logs
+*.log
+
+# Archivos de empaquetado generados (excepto las librerías en /lib/)
+*.jar
+*.war
+*.ear
+!/lib/*.jar
+!/lib/**/*.jar
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configuraciones de otros IDEs
+.idea/
+*.iml
+.vscode/
+.nb-attrs
